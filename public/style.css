@@ -1,0 +1,30 @@
+.jobs-container {
+	width: 75%;
+	margin: 0 auto;
+}
+.add-job {
+	margin: 10px 0;
+}
+.add-job input[type="text"] {
+	height: auto;
+	padding: 10px;
+}
+.job-item {
+	margin-bottom: 5px;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	position: relative;
+}
+.job-item:hover {
+	background-color: #f5f5f5;
+}
+.job-item:hover .btn-remove {
+	visibility: visible;
+}
+.job-item .btn-remove {
+	padding: 11px;
+	left: -36px;
+	position: absolute;
+	visibility: hidden;
+}
